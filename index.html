@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50 First Date</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="box">
+    <h1 id = title> To Lucy...</h1>
+
+    <h2 id="text">Hello, Lucy. Good morning. As you wake up today, you may find yourself without the memories of yesterday. But don’t worry, you’re perfectly okay, and I’m here to remind you of the things that matter.</h2>
+    
+    
+    <button id="ChangeText">Click Me!</button>
+  
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+  $('#ChangeText').click(() => {
+    $('#text').text("You first met me at a charming little café, and since that day, we've been trying to make each moment count. Though each day feels new to you, for me, it’s another opportunity to rekindle our love.");
+
+    $('#ChangeText').click(() => {
+      $('#text').text("What you’re feeling might be a bit confusing, but rest assured, I’m right here with you. We’ve shared so many moments, and even if they’re not fresh in your mind, they’re vivid in mine.");
+
+        $('#ChangeText').click(() => {
+        $('#text').text("Everything might seem unfamiliar again, Lucy, but know that there’s a lot of love surrounding you. Each time you wake up, a new adventure awaits, and I’m here to assure you that there’s nothing to fear.");
+
+        $('#ChangeText').click(() => {
+          $('#text').text("Sometimes we share a laugh as you piece together what’s happening. It’s not always easy, I know. But today, as with every day, I’m here to tell you how much I admire your strength and determination.");
+
+            $('#ChangeText').click(() => {
+            $('#text').text("Though each day feels like a new beginning for you, for us, it’s a continuation of our journey together. Challenges may come, but together we find a way to navigate them.");
+
+              $('#ChangeText').click(() => {
+              $('#text').text("You are incredibly resilient. Even if your memories fade, you continue to give the same warmth and affection as the very first day we met. And that is something timeless.");
+            });
+          });
+        });
+      });
+    });
+  });
+</script>
+
+
+</body>
+</html>
